@@ -33,7 +33,7 @@ const Login = ({ onLogin }) => {
 
     try {
       // Use Axios for making the POST request
-      const response = await axios.post("/login", {
+      const response = await axios.post("https://backend-a0q6.onrender.com/login", {
         email,
         password,
       });
