@@ -33,7 +33,7 @@ const Signup = () => {
 
     try {
       // Use Axios for making the POST request
-      const response = await axios.post("/signup", {
+      const response = await axios.post("https://backend-a0q6.onrender.com/signup", {
         username,
         email,
         password,
