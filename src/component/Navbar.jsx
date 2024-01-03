@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const handleLogout = async () => {
     try {
-        const response = await fetch('/logout', {
+        const response = await fetch('https://backend-a0q6.onrender.com/logout', {
         method: 'GET',
         credentials: 'include', // Include credentials (cookies) in the request
         });
